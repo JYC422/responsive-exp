@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>common grounds.</title>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <link rel="stylesheet" href="../css/main.css">
+
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+  <div class="container">
+    <nav class="navbar navbar-default">
+        <ul class="nav navbar-nav row">
+          <li><a class="navbar-brand navbar-left col-xs-12" href="../index.html">common grounds.</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right row">
+          <li><a class="navbar-link col-md-12" href="about.html">about us</a></li>
+          <li><a class="navbar-link col-md-12" href="product.html">product</a></li>
+          <li><a class="navbar-link col-md-12" href="checkout1.html">checkout</a></li>
+        </ul>
+    </nav>
+  </div>
+
+  <div class="jumbotron checkout">
+    <p id="check">CHECK</p>
+    <p id="out">OUT</p>
+  </div>
+
+  <div class="container">
+    <p id="checkout-title">PAYMENT METHOD</p>
+  </div>
+
+  <div class="container">
+    <p id="transactions">All Transactions are secure and encrypted. Credit card information is never stored.</p>
+  </div>
+
+  <div class="container">
+    <div class="cc" role="group">
+      <div class="row cc-cc">
+        <div class="col-xs-12">
+          <div class="col-xs-12 col-md-6 text-left">
+            <label class="radio-inline">
+              <input class="opt" type="radio" name="payment" checked> Credit card
+            </label>
+          </div>
+          <div class="col-xs-12 col-md-6">
+            <div class="cc-images" text-right>
+              <div><img class="cc-image" src="../assets/visa.png"></div>
+              <div><img class="cc-image" src="../assets/mastercard.png"></div>
+              <div><img class="cc-image" src="../assets/amex.png"></div>
+              <div><img class="cc-image" src="../assets/discover.png"></div>
+              <div class="more"><p>and more...</p></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row cc-info">
+        <form>
+          <div class="col-xs-12 cc-info-row">
+            <div class="col-xs-12">
+              <input class="form-control cc-details" type="text" placeholder="Card number">
+            </div>
+          </div>
+          <div class="col-xs-12 cc-info-row">
+            <div class="col-xs-12 col-md-6 cc-name">
+              <input class="form-control cc-details" type="text" placeholder="Name on card">
+            </div>
+            <div class="col-xs-12 col-md-3 cc-expire">
+              <input class="form-control cc-details" type="text" placeholder="MM/YY">
+            </div>
+            <div class="col-xs-12 col-md-3 cc-cvv">
+              <input class="form-control cc-details" type="text" placeholder="CVV">
+            </div>
+          </div>
+        </form>
+      </div>
+
+      <div class="row paypal-pay">
+        <div class="col-xs-12">
+          <div class="col-xs-12 col-md-6 text-left">
+            <label class="radio-inline">
+              <input class="opt" type="radio" name="payment">
+              <img src="../assets/paypal.png">
+            </label>
+          </div>
+          <div class="col-xs-12 col-md-6">
+            <div class="cc-images" text-right>
+              <div><img class="cc-image" src="../assets/visa.png"></div>
+              <div><img class="cc-image" src="../assets/mastercard.png"></div>
+              <div><img class="cc-image" src="../assets/amex.png"></div>
+              <div><img class="cc-image" src="../assets/discover.png"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <p id="checkout-title">BILLING ADDRESS</p>
+  </div>
+
+  <div class="container">
+    <div class="billing">
+      <div class="row bill-add same" role="group">
+        <div class="col-xs-12">
+          <div class="col-xs-12 text-left">
+            <label class="radio-inline">
+              <input class="opt" type="radio" name="billing" checked> Same as shipping address
+            </label>
+          </div>
+        </div>
+      </div>
+      <div class="row bill-add different">
+        <div class="col-xs-12">
+          <div class="col-xs-12 text-left">
+            <label class="radio-inline">
+              <input class="opt" type="radio" name="billing"> Use a different billing address
+            </label>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <label class="form-check-label save">
+      <input class="form-check-input" type="checkbox" checked> Subscribe to our newsletter
+    </label>
+  </div>
+
+  <div class="container">
+    <div class="row returncontinue">
+      <div class="col-xs-12">
+        <div class="col-xs-12 col-md-6 return">
+          <p><a href="checkout2.html">< RETURN TO SHIPPING METHOD</a></p>
+        </div>
+        <div class="col-xs-12 col-md-6 continue">
+          <a href="thankyou.html"><button class="btn btn-default submit">COMPLETE ORDER</button></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <p class="footer-one">@ 2016 commongrounds.</p>
+    <p class="footer-two">all rights reserved</p>
+  </footer>
+
+  <script src="../js/main.js"></script>
+</body>
+</html>
